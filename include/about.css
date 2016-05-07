@@ -1,0 +1,15 @@
+/*
+* David Gaulke
+* 3/5/2015
+* Formats about.php
+*/
+figcaption
+{
+    letter-spacing: 7px;
+}
+#img_about
+{
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px darkgrey;
+}

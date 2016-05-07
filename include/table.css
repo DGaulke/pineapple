@@ -1,0 +1,27 @@
+/*
+* David Gaulke
+* 3/5/2015
+* Formats about.php
+*/
+#sectionArea
+{
+    text-align: left;
+}
+table, th, td
+{
+    font-size: medium;
+    text-align: left;
+    border: 1px solid #7379CE;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 20px 0;
+}
+th
+{
+    background-color: #7379CE;
+    color: white;
+}
+tr:nth-child(odd)
+{
+    background-color: #ADAFCE;
+}

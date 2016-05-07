@@ -1,0 +1,66 @@
+/*
+* David Gaulke
+* 3/5/2015
+* Formats menu pages
+*/
+#sidebar
+{
+    float: left;
+    width: 30%;
+}
+#menu-items
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+#menu-items li
+{
+    padding-bottom: 1em;
+    margin-left: 0;
+}
+#detail
+{
+    float: right;
+    width: 70%;
+    display:block;
+}
+figure
+{
+    height:120px;
+    line-height: 120px;
+    margin: 0;
+}
+figure:hover
+{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: #e6fffa;
+    color:black;
+}
+.img_box
+{
+    float:left;
+    width: 200px;
+    height: 120px;
+
+}
+figure>span
+{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: smaller;
+}
+.img_box>img
+{
+
+    height: 100px;
+    padding: 10px;
+}
+#img_menu
+{
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 30px;
+}

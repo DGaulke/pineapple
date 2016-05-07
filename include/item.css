@@ -1,0 +1,34 @@
+/*
+* David Gaulke
+* 3/5/2015
+* Formats item/index.php
+*/
+h3
+{
+    padding-left: 2em;
+    margin:0;
+    text-align: left;
+}
+#img_item
+{
+    width: 350px;
+    padding: 30px;
+    float:left;
+}
+p
+{
+    padding-top: 30px;
+    text-align: left;
+    line-height: 150%;
+}
+.breadcrumbs
+{
+    text-align: left;
+    padding: 1em 2em;
+    letter-spacing: 0;
+    font-size: small;
+}
+.breadcrumbs>a
+{
+    color:darkblue;
+}

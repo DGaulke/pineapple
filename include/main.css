@@ -1,0 +1,69 @@
+/*
+* David Gaulke
+* 3/5/2015
+* Formats major components of all pages and sets general theme
+*/
+body
+{
+	text-align: center;
+	background-color: #d6f6ff;
+
+	font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+	font-size: larger;
+	letter-spacing: 2px;
+
+}
+#headerArea, #sectionArea, #footerArea
+{
+	display: inline-block;
+	width: 800px;
+	padding: 1em 0;
+}
+#headerArea
+{
+	padding-top: 0;
+}
+#sectionArea
+{
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+#footerArea
+{
+	font-size: small;
+}
+#menu-navigation
+{
+	list-style: none;
+	padding: 0;
+}
+#menu-navigation li
+{
+	display: inline;
+	padding: 0 1.5em;
+}
+a:link, a:visited
+{
+	text-decoration: none;
+	color:#000000;
+}
+a:hover
+{
+	color:#ff0000;
+}
+#img_home
+{
+	width:600px;
+}
+#user_login
+{
+	font-size: smaller;
+	letter-spacing: 0;
+	float: right;
+}
+#user_login > a:link, #user_login > a:visited
+{
+	color: #0000ff;
+}
+
+
